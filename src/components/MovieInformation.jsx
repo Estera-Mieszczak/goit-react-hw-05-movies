@@ -6,8 +6,9 @@ export const MovieInformation = ({ movieDetails }) => {
     <div className={css.container} key={movieDetails.imdb_id}>
       <div className={css.imagebox}>
             <img
-                className={css.image}
-                src={`https://image.tmdb.org/t/p/w1280/${movieDetails.backdrop_path}`}
+              alt=""
+              className={css.image}
+              src={`https://image.tmdb.org/t/p/w1280/${movieDetails.backdrop_path}`}
             />
       </div>
       <div className={css.description}>
