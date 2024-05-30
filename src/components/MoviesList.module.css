@@ -1,0 +1,7 @@
+.list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}

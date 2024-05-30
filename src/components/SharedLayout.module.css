@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid;
+  border-color: lightgray;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  color: black;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.link:hover {
+  color: #f21905;
+}

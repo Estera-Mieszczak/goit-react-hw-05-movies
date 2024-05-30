@@ -1,0 +1,47 @@
+.container {
+  /* margin-top: 40px; */
+  display: flex;
+  padding-left: 20px;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+}
+
+.imagebox {
+  width: 45%;
+  border-radius: 8px;
+}
+
+.description {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  /* height: 400px; */
+  text-align: left;
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 500;
+}
+.filmdataname {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.filmdata {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.overview {
+  font-size: 16px;
+  font-weight: 500;
+}

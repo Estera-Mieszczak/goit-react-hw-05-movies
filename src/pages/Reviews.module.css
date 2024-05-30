@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 24px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.article {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
